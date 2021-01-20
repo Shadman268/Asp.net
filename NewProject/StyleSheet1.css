@@ -1,0 +1,281 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    outline: 0
+}
+
+body {
+    font-family: arial;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+}
+
+.template {
+    width: 960px;
+    background-color: #ddd;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.clear {
+    overflow: hidden;
+}
+
+input[type="text"] {
+    margin-left: 46px;
+    padding: 2px;
+    width: 200px;
+}
+
+input[type="email"] {
+    margin-left: 21px;
+    padding: 2px;
+    width: 200px;
+}
+
+input[type="password"] {
+    margin-left: 52px;
+    padding: 3px;
+    width: 200px;
+}
+
+input[type="submit"] {
+    padding: 7px;
+    margin-top: 13px;
+    margin-left: 162px;
+    cursor: pointer;
+    background: #64a9a9;
+    font-weight: bold;
+}
+
+    input[type="submit"]:hover {
+        background-color: #fff;
+        color: black;
+    }
+
+.headersection {
+    background: #c8dc55;
+    color: #fff;
+}
+
+.logo {
+    width: 450px;
+    float: left;
+}
+
+    .logo img {
+        width: 150px;
+        float: left;
+    }
+
+    .logo h2 {
+        padding: 10px;
+        margin-left: 174px;
+        margin-top: 40px;
+    }
+
+    .logo p {
+        margin-left: 166px;
+        font-size: 18px;
+    }
+
+.social {
+    width: 400px;
+    float: right;
+}
+
+    .social img {
+        width: 54px;
+        float: right;
+        padding: 14px;
+    }
+
+
+.navsection {
+    background-color: #b7c75c;
+}
+
+    .navsection ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+        .navsection ul li {
+            display: block;
+            float: left;
+        }
+
+            .navsection ul li a {
+                display: block;
+                /* border: 1px solid; */
+                background: #5fb6d3;
+                text-decoration: none;
+                padding: 5px 15px;
+                margin: 5px;
+                font-size: larger;
+                font-weight: bold;
+                color: unset;
+            }
+
+                .navsection ul li a:hover {
+                    background: black;
+                    color: #fff;
+                }
+
+.slidersection {
+}
+
+.contentsection {
+    background: #fff;
+}
+
+.maincontent {
+    width: 720px;
+    background-color: gray;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 0px;
+}
+
+    .maincontent p {
+        margin-top: 4px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+.About {
+}
+
+    .About img {
+        width: 300px;
+        float: left;
+    }
+
+    .About p {
+        margin-left: 12px;
+        line-height: 21px;
+        font-size: 16px;
+    }
+
+.samepost {
+}
+
+    .samepost h2, .About h2 {
+        background: cadetblue;
+        color: black;
+        padding: 15px;
+        margin-bottom: 10px;
+        border-bottom: 10px;
+        border-color: brown;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .samepost img {
+        height: 230px;
+        width: 300px;
+        margin-right: 10px;
+        border: 10px;
+        border-color: #1c1717;
+        float: left;
+    }
+
+    .samepost p {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+
+.sidebar {
+    width: 173px;
+    background-color: lightgray;
+    float: right;
+    padding: 10px;
+    margin-top: 10px;
+    border: 3px solid;
+}
+
+}
+
+.samesidebar {
+}
+
+    .samesidebar h2 {
+        background: #3a3030;
+        color: #fff;
+        padding: 5px;
+        margin: 11px border-bottom:5px;
+        margin: 2px;
+    }
+
+}
+
+.samesidebar ul {
+    padding: 0,margin:0;
+    list-style: none;
+}
+
+    .samesidebar ul li {
+        line-height: 21px;
+        margin-left: 6px;
+    }
+
+        .samesidebar ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+            .samesidebar ul li a:hover {
+                background-color: cadetblue;
+            }
+
+.readmore {
+}
+
+    .readmore a {
+        background: #e2dada;
+        color: black;
+        font-size: 15px;
+        padding: 12px;
+        margin: 1px;
+        text-decoration: underline;
+        float: right;
+    }
+
+        .readmore a:hover {
+            background: lightblue;
+            color: black;
+            font-weight: bold;
+        }
+
+.footersection {
+    height: 90px;
+    background: #b3d00fab;
+    text-align: center;
+}
+
+.footermenu {
+}
+
+    .footermenu ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        margin-top: 27px;
+        font-size: 15px;
+    }
+
+        .footermenu ul li {
+            display: inline-block;
+        }
+
+            .footermenu ul li a {
+            }
+
+.footersection p {
+    font-size: 12px;
+    margin-top: 7px;
+}

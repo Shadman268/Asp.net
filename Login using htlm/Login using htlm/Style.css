@@ -1,0 +1,54 @@
+﻿body {
+}
+.template {
+    width: 960px;
+    background-color: #ddd;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.clear {
+    overflow: hidden;
+}
+.header
+{
+
+}
+p{
+
+}
+.nav {
+    background-color: #99d1c1;
+    height: 123px;
+}
+ul {
+    text-decoration: none;
+    list-style:none;
+    font-size: 25px;
+    
+    padding: -10px;
+    background: white;
+}
+    ul a {
+        float: left;
+        text-decoration: none;
+        margin: 26px;
+        background: blanchedalmond;
+        padding: 3px;
+        margin-left: -18px;
+    }
+    ul a:hover{
+        background:#ddd;
+    }
+.leftsidebar {
+    width: 273px;
+    height: 500px;
+}
+
+    .leftsidebar fieldset {
+            margin-top: 150px;
+            margin-left: 3px;
+            background: bisque;
+        }
+    .leftsidebar fieldset legend {
+        }

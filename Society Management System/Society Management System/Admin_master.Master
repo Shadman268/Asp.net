@@ -1,0 +1,106 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin_master.master.cs" Inherits="Society_Management_System.Admin_master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="homeStyle.css" rel="stylesheet" />
+    <link href="adminStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header clear">
+            <div class="logo">
+                <img src="images/ehouse.png" alt="logo" />
+            </div>
+            <div class="social">
+                <a href="https://web.facebook.com/?_rdc=1&_rdr">
+                    <img src="images/social/facebook.png" alt="facebook"></a>
+                <a href="">
+                    <img src="images/social/twitter.png" alt="Twitter"></a>
+                <a href="">
+                    <img src="images/social/whatsapp.png" alt="Whatsapp"></a>
+            </div>
+        </div>
+        <div id="main">
+            <div id="menu">
+                <table class="tbll">
+                    <tr>
+                        <td class="tblhead">Welcome</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center">
+                            <asp:Label ID="lblname" runat="server"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Button ID="Button1" runat="server" CssClass="btn1" Font-Size="Medium" PostBackUrl="~/Admin/AddSociety.aspx"
+                                Height="40px" Text="ADD SOCIETY" Width="100%" CausesValidation="False" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Button ID="Button2" runat="server" CssClass="btn1" Font-Size="Medium" PostBackUrl="~/Admin/AddHouse.aspx"
+                                Height="40px" Text="ADD HOUSE" Width="100%" CausesValidation="False" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Button ID="Button4" runat="server" CssClass="btn1" Font-Size="Medium"
+                                Height="40px" Text="HOUSE REPORT" Width="100%" CausesValidation="False" PostBackUrl="~/Admin/VHouse.aspx" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Button ID="Button3" runat="server" CssClass="btn1" Font-Size="Medium" PostBackUrl="~/Admin/AddMember.aspx"
+                                Height="40px" Text="ALLOCATE  HOUSE" Width="100%"
+                                CausesValidation="False" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Button ID="Button5" runat="server" CssClass="btn1" Font-Size="Medium"
+                                Height="40px" Text="MEMBER REPORT" Width="100%" CausesValidation="False" PostBackUrl="~/Admin/VMember.aspx" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Button ID="Button6" runat="server" CssClass="btn1" Font-Size="Medium"
+                                Height="40px" Text="COMPLAIN" Width="100%" CausesValidation="False" PostBackUrl="~/Admin/Complain.aspx" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Button ID="Button7" runat="server" CssClass="btn1" Font-Size="Medium"
+                                Height="40px" Text="SELL HOUSE REPORT" Width="100%"
+                                CausesValidation="False" PostBackUrl="~/Admin/VSell.aspx" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Button ID="Button8" runat="server" CssClass="btn1" Font-Size="Medium"
+                                Height="40px" Text="RENT HOUSE REPORT" Width="100%"
+                                CausesValidation="False" PostBackUrl="~/Admin/VRent.aspx" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Button ID="Button9" runat="server" CssClass="btn1" Font-Size="Medium"
+                                Height="40px" Text="LOG OUT" Width="100%"
+                                CausesValidation="False" PostBackUrl="~/Admin_master/Home.html" BackColor="Red" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="cnt">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

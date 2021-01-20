@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Utshob's Website</title>
+    <script language="javascript" type="text/javascript">
+function clearText(field)
+{
+    if (field.defaultValue == field.value) field.value = '';
+    else if (field.value == '') field.value = field.defaultValue;
+}
+    </script>
+
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+$(window).load(function() {
+	$('#slider').nivoSlider({
+		effect:'random',
+		slices:10,
+		animSpeed:500,
+		pauseTime:2200,
+		startSlide:0, //Set starting Slide (0 index)
+		directionNav:false,
+		directionNavHide:false, //Only show on hover
+		controlNav:false, //1,2,3...
+		controlNavThumbs:false, //Use thumbnails for Control Nav
+		pauseOnHover:true, //Stop animation while hovering
+		manualAdvance:false, //Force manual transitions
+		captionOpacity:0.8, //Universal caption opacity
+		beforeChange: function(){},
+		afterChange: function(){},
+		slideshowEnd: function(){} //Triggers after all slides have been shown
+	});
+});
+    </script>
+
+
+</head>
+<body>
+
+    <div class="headersection template clear">
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Logo"><h2>Website title</h2><p>Our website description</p>
+        </div>
+        <div class="social">
+            <a href=""><img src="images/social/facebook.png" alt="facebook"></a>
+            <a href=""><img src="images/social/twitter.png" alt="Twitter"></a>
+            <a href=""><img src="images/social/whatsapp.png" alt="Whatsapp"></a>
+        </div>
+    </div>
+    <div class="navsection template clear">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="#">Privacy</a></li>
+        </ul>
+    </div>
+    <div class="slidersection template clear">
+        <div id="slider">
+            <a href="#"><img src="images/slideshow/01.jpg" alt="nature 1" /></a>
+            <a href="#"><img src="images/slideshow/02.jpg" alt="nature 2" /></a>
+            <a href="#"><img src="images/slideshow/03.jpg" alt="nature 3" /></a>
+            <a href="#"><img src="images/slideshow/04.jpg" alt="nature 4" /></a>
+        </div>
+    </div>
+    <div class="contentsection template clear">
+        <div class="maincontent clear">
+            <div class="samepost clear">
+                <h2>Here is the title</h2>
+                <a href=""><img src="images/knowledge.jpg" alt="post image" /></a>
+                <p>some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.</p>
+                <div class="readmore clear"><a href="">Read more</a></div>
+            </div>
+            <div class="samepost clear">
+                <h2>Here is the title</h2>
+                <a href=""><img src="images/knowledge.jpg" alt="post image" /></a>
+                <p>some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.some text will be here.</p>
+                <div class="readmore clear"><a href="">Read more</a></div>
+            </div>
+
+        </div>
+        <div class="sidebar clear">
+            <div class="samesidebar clear">
+                <h2>Latest article</h2>
+                <ul>
+                    <li><a href="#">Post title one</a></li>
+                    <li><a href="#">Post title two</a></li>
+                    <li><a href="#">Post title three</a></li>
+                    <li><a href="#">Post title four</a></li>
+                </ul>
+            </div>
+            <div class="samesidebar clear">
+                <div class="samesidebar clear">
+                    <h2>Latest article</h2>
+                    <ul>
+                        <li><a href="#">Post title one</a></li>
+                        <li><a href="#">Post title two</a></li>
+                        <li><a href="#">Post title three</a></li>
+                        <li><a href="#">Post title four</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footersection template clear">
+            <div class="footermenu clear">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </div>
+            <p>&copy; Copyright Utshob's Website</p>
+        </div>
+</body>
+</html>

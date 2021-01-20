@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30001.183
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Login using htlm", "Login using htlm\Login using htlm.csproj", "{F7B6BB0E-EEE6-40A4-9151-BDF442B3B914}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7B6BB0E-EEE6-40A4-9151-BDF442B3B914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B6BB0E-EEE6-40A4-9151-BDF442B3B914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B6BB0E-EEE6-40A4-9151-BDF442B3B914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B6BB0E-EEE6-40A4-9151-BDF442B3B914}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19512463-C335-4929-8A91-D3BB83BDA6C2}
+	EndGlobalSection
+EndGlobal
